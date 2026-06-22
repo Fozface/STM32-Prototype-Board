@@ -1,0 +1,356 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "92d9d262-a04e-4767-a7d6-45cb8435684a")
+	(paper "A4")
+	(title_block
+		(title "STM32 Breakout board")
+		(date "2026-02-13")
+		(rev "2")
+		(comment 2 "deigned for a single cell LiPO")
+		(comment 3 "Includes a USB for UART serial interface and a battery charger CCT")
+		(comment 4 "This is a single STM32 MCU with breakout pins for GPIO")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 168.91 50.8) (xy 165.1 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "144b8779-f005-478d-9f6a-eaf3bf92caf7")
+	)
+	(wire
+		(pts
+			(xy 171.45 50.8) (xy 171.45 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "187c0b6d-45ed-4c33-b717-ff18a506ae69")
+	)
+	(wire
+		(pts
+			(xy 105.41 52.07) (xy 121.92 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42370294-8a41-46cb-bca5-1f4789b78be4")
+	)
+	(wire
+		(pts
+			(xy 173.99 53.34) (xy 168.91 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4729b310-0331-43dd-a696-eda8f76d7a09")
+	)
+	(wire
+		(pts
+			(xy 171.45 55.88) (xy 165.1 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66bbecab-4fe5-48a3-83b9-5f1733a7ed1a")
+	)
+	(wire
+		(pts
+			(xy 171.45 50.8) (xy 179.07 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b09ad9e-390a-44bb-bccd-546d8b6a2521")
+	)
+	(wire
+		(pts
+			(xy 92.71 34.29) (xy 92.71 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72e6d4aa-1d04-4d72-9d87-00394278c70d")
+	)
+	(wire
+		(pts
+			(xy 173.99 53.34) (xy 173.99 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8025b5b9-f13b-4d56-99c5-532dc048284f")
+	)
+	(wire
+		(pts
+			(xy 173.99 55.88) (xy 179.07 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a830710a-1c5a-46bc-a590-eed6d51c0d63")
+	)
+	(wire
+		(pts
+			(xy 196.85 34.29) (xy 92.71 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afc017db-8ce5-4a30-9bdf-55985bb71802")
+	)
+	(wire
+		(pts
+			(xy 196.85 40.64) (xy 196.85 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5d0e5e9-0ed8-4ec9-b6a2-9ac818a8fc9e")
+	)
+	(wire
+		(pts
+			(xy 168.91 53.34) (xy 168.91 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea0a6951-1a6a-4a10-9dc8-01a227fd0dd5")
+	)
+	(sheet
+		(at 179.07 40.64)
+		(size 45.72 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "35743c2e-cb32-4dcc-b201-a86a28ce7953")
+		(property "Sheetname" "USB"
+			(at 179.07 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB.kicad_sch"
+			(at 179.07 66.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 179.07 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "Rx" input
+			(at 179.07 50.8 180)
+			(uuid "c5db55b9-6a9c-4e6b-a79f-647b49c79bdb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Tx" input
+			(at 179.07 55.88 180)
+			(uuid "ec45e8a3-e25e-4f36-83ed-62a04576f1cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBUS" input
+			(at 196.85 40.64 90)
+			(uuid "04bd1c99-36c3-4611-bc3c-b326e0a49e8d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "STM32 Dev Board"
+				(path "/92d9d262-a04e-4767-a7d6-45cb8435684a"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 121.92 40.64)
+		(size 43.18 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6f0c6c08-b2a9-4076-8289-bfcb03da1ad9")
+		(property "Sheetname" "MCU"
+			(at 121.92 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 121.92 67.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Rx" input
+			(at 165.1 50.8 0)
+			(uuid "c8478039-62ac-4dbe-8e3b-9f29d6099409")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Tx" input
+			(at 165.1 55.88 0)
+			(uuid "f66a6330-c8f1-48f3-9fcc-5fabeb132b71")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3.3V" input
+			(at 121.92 52.07 180)
+			(uuid "441977fc-2f6b-4239-af39-cf6d40b098db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "STM32 Dev Board"
+				(path "/92d9d262-a04e-4767-a7d6-45cb8435684a"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 59.69 40.64)
+		(size 45.72 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f8df56a1-7e92-47d4-9228-bd67c195734a")
+		(property "Sheetname" "PSU"
+			(at 59.69 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PSU.kicad_sch"
+			(at 59.69 67.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3.3V" input
+			(at 105.41 52.07 0)
+			(uuid "bd159baf-8d58-4884-956a-59884450abff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VUSB" input
+			(at 92.71 40.64 90)
+			(uuid "bbcff075-54f3-449f-90f3-c0a77daa6940")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "STM32 Dev Board"
+				(path "/92d9d262-a04e-4767-a7d6-45cb8435684a"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
