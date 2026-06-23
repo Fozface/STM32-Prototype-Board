@@ -2589,7 +2589,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MyLib:SOT-23"
+		(property "Footprint" "MyLib:SOT-23-3"
 			(at 179.07 87.63 0)
 			(effects
 				(font
@@ -2598,7 +2598,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+		(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/24/49/infineon-bsr315p-ds-en.pdf?fileId=db3a304412b407950112b42acc6143f0"
 			(at 173.99 102.87 0)
 			(effects
 				(font
@@ -3710,7 +3710,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 155.194 90.424 90)
 			(effects
 				(font
@@ -3787,7 +3787,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/450405020524.pdf"
 			(at 195.58 86.36 0)
 			(effects
 				(font
@@ -3848,7 +3848,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Schottky"
+		(property "Value" "V1FM10-M3/H"
 			(at 173.99 98.7426 90)
 			(effects
 				(font
@@ -3867,7 +3867,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/87557/v1fm10.pdf"
 			(at 176.53 100.33 0)
 			(effects
 				(font
